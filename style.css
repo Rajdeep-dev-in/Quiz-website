@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(13, 14, 15);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* box area */
+.box{
+    width: 40%;
+    /* margin-top: 5%; */
+    background-color: rgb(92, 91, 91);
+    
+}
+.heading{
+    width: 100%;
+    height: 6vh;
+    text-align: center;
+}
+
+.section-area{
+    width: 100%;
+    text-align: center;
+}
+.question-area{
+    margin-top: 10px;
+}
+
+
+.question{
+    font-size: 1.7rem;
+}
+.subject_area{
+    margin-top: 10px;
+}
+.subject{
+    font-size: 1.2rem;
+}
+.counter-area{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 100%;
+    border: 1px solid rgb(41, 41, 240);
+    font-size: 1.5rem;
+
+}
+.option-area{
+    width: 100%;
+    text-align: center;
+}
+.option-body{
+    font-size: 1.5rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.option-list{
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 2px 1px 2px black;
+    cursor: pointer;
+}
+.option-list::active{
+    transform: scale(0.97);
+    
+}
+.select{
+    background-color: green;
+    color: #fff;
+}
+
+.footer-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.btn button{
+    width: 14vw;
+    height: 6vh;
+    border: none;
+    background-color: rgb(56, 56, 211);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#again-btn{
+    display: none;
+}
+.result-area{
+    width: 100%;
+    align-items: center;
+    
+}
+.result{
+    font-size: 1.7rem;
+}
+.fa-check,.fa-xmark ,.fa-exclamation{
+    border: 3px solid green;
+    background-color: green;
+    border-radius: 100%;
+}
